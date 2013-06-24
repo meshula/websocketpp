@@ -28,6 +28,7 @@
 #ifndef WEBSOCKET_PROCESSOR_HYBI_HEADER_HPP
 #define WEBSOCKET_PROCESSOR_HYBI_HEADER_HPP
 
+#include <float.h>  // boost needs it for FLT_MAX
 #include "processor.hpp"
 
 namespace websocketpp {
