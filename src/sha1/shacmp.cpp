@@ -58,7 +58,7 @@ void usage();
  */
 int main(int argc, char *argv[])
 {
-    SHA1        sha;                        // SHA-1 class
+    websocketpp::SHA1        sha;                        // SHA-1 class
     FILE        *fp;                        // File pointer for reading files
     char        c;                          // Character read from file
     unsigned    message_digest[2][5];       // Message digest for files

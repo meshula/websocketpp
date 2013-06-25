@@ -51,7 +51,7 @@ void DisplayMessageDigest(unsigned *message_digest);
  */
 int main()
 {
-    SHA1        sha;
+    websocketpp::SHA1        sha;
     unsigned    message_digest[5];
 
     /*

@@ -25,6 +25,7 @@
  * 
  */
 
+#include <float.h>  // boost needs it for FLT_MAX
 #include "data.hpp"
 #include <string>
 
